@@ -1,0 +1,45 @@
+site_name: My site
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  features: 
+    # Header
+    - header.autohide
+    - announce.dismiss
+
+    # Navigation
+    - navigation.tabs
+    - navigation.footer
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tracking
+
+    # Search
+    - search.suggest
+    - search.share
+
+    # Content and Code
+    - content.code.copy
+    - content.tabs.link
+
+
+  palette:
+
+
+    # Dark mode
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+
+    # Light mode
+    - scheme: default
+      primary: deep purple
+      accent: deep orange
+      toggle: 
+        icon: material/weather-sunny
+        name: Switch to dark mode
