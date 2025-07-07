@@ -1,2 +1,3 @@
-# AI-Engineering
-Documenting my learning on AI Engineering 
+# Wiki
+
+Documenting AI Engineering concepts
