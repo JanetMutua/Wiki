@@ -5,6 +5,10 @@ theme:
   favicon: :simple-stencil:
   language: en
 
+  font:
+    text: Roboto
+    code: Roboto Mono
+
   features: 
     # Header
     - header.autohide
@@ -27,7 +31,6 @@ theme:
 
 
   palette:
-
 
     # Dark mode
     - scheme: slate

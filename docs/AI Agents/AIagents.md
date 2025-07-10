@@ -1,5 +1,19 @@
 # Agent Fundamentals
 
+## Available Large Language Models
+
+- Claude
+- Gemini
+- Mistral
+- Anthropic 
+- Deepmind
+- OpenAI
+- Deepseek
+- Cohere
+- xAI
+- Perplexity
+- Grok
+
 ## Running Models Locally with Ollama
 
 Here are some steps to follow:
