@@ -57,4 +57,4 @@ Here are some steps to follow:
             source venv/bin/activate
         ```
 
-4. sjjfjf
+4. 
