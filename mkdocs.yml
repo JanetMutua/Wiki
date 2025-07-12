@@ -18,9 +18,7 @@ theme:
     # Navigation
     - navigation.tabs
     - navigation.top
-    - navigation.sections
     - navigation.indexes
-    - navigation.footer
 
 
     # Search
@@ -30,9 +28,6 @@ theme:
 
     # Content and Code
     - content.code.copy
-    - content.tabs.link
-    # - content.code.annotate
-    # - content.code.hint
 
   # nav:
   #   - Home: index.md
@@ -110,4 +105,5 @@ markdown_extensions:
   - pymdownx.details
   - admonition
 
-copyright: Copyright &copy; 2025 Janet Mutua
+copyright: |
+  &copy; 2025 <a href="https://github.com/JanetMutua"  target="_blank" rel="noopener">Janet Mutua</a>
