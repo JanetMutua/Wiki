@@ -2,6 +2,8 @@ site_name: Janet Mutua
 site_url: https://janetmutua.github.io/Wiki/
 theme:
   name: material
+  icon:
+    logo: material/air-filter
   language: en
 
   font:
@@ -18,8 +20,8 @@ theme:
     - navigation.top
     - navigation.sections
     - navigation.indexes
-    - navigation.tracking
     - navigation.footer
+
 
     # Search
     - search.suggest
@@ -50,44 +52,6 @@ theme:
   #         - Deployment: AI%20Engineering/deployment.md
 
 
-
-  plugins:
-    - search
-    - typeset
-
-
-  markdown_extensions:
-    # - codehilite
-    # - footnotes
-    # - md_in_html
-    - toc:
-        permalink: true
-
-  copyright: Copyright &copy; 2025 Janet Mutua
-    # icon: material/copyright
-    # name: Janet Mutua
-    # year: 2023
-    # link: https://janetmutua.com
-
-  extra:
-    social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/JanetMutua
-        name: GitHub
-      - icon: fontawesome/brands/twitter
-        link: https://x.com/mu_mbua_
-        name: Twitter
-      - icon: fontawesome/brands/linkedin
-        link: https://www.linkedin.com/in/janetmutua/
-        name: LinkedIn
-      - icon: fontawesome/brands/DEV 
-        link: https://dev.to/janetmutua
-        name: DEV.to
-      - icon: fontawesome/brands/medium
-        link: https://medium.com/@janetmutua
-        name: Medium        
-
-
   palette:
 
     # Dark mode
@@ -95,7 +59,7 @@ theme:
       primary: black
       accent: deep orange
       toggle:
-        icon: material/weather-night
+        icon: material/weather-sunny
         name: Switch to light mode
 
 
@@ -104,5 +68,46 @@ theme:
       primary: deep purple
       accent: deep orange
       toggle: 
-        icon: material/weather-sunny
+        icon: material/weather-night
         name: Switch to dark mode
+
+
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/JanetMutua
+    - icon: material/twitter
+      link: https://x.com/mu_mbua_
+    - icon: material/linkedin
+      link: https://www.linkedin.com/in/janetmutua/
+    - icon: material/dev-to
+      link: https://dev.to/janetmutua
+
+
+
+markdown_extensions:
+  # Setting up emojis
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  # Code highlighting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: true
+      pygments_lang_class: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+
+  # To add content tabs
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+
+  # Admonitions
+  - pymdownx.details
+  - admonition
+
+copyright: Copyright &copy; 2025 Janet Mutua

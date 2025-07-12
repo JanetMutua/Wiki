@@ -4,7 +4,7 @@ on:
     branches:
       - main
       - master
-  permissions:
+permissions:
   contents: write
 jobs:
   deploy:
@@ -22,7 +22,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          path: .cache 
+          path: ~/.cache 
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 

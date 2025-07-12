@@ -57,4 +57,17 @@ Here are some steps to follow:
             source venv/bin/activate
         ```
 
-4. 
+4. Check out this code:
+
+```py title="add_numbers.py" linenums="1" hl_lines="2-4"
+# Function to add two numbers
+def add_two_numbers(num1, num2):
+    return num1 + num2
+
+# Example usage
+result = add_two_numbers(5, 3)
+print('The sum is:', result)
+```
+
+!!! note "See references"
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
