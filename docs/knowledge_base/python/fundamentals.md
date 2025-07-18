@@ -46,7 +46,11 @@ Here are some notable language features to keep in mind:
 ## Python Data Types
 
 Below is a high-level overview of Python data types with examples:
-![Python Data Types](assets/python-data-types.jpg)Source: [PYnative](https://pynative.com/python-data-types/)
+![Python Data Types](assets/python-data-types.jpg)
+Source: [PYnative](https://pynative.com/python-data-types/)
+
+
+
 
 
 ## References
