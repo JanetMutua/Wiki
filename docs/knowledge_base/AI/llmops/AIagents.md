@@ -41,7 +41,7 @@ Here are some steps to follow:
     `ollama serve`
 
     If you run into an error as shown below:
-    ![Address already in use error](images/addressUseOllama.png)
+    ![Address already in use error](assets/addressUseOllama.png)
 
     Use the command `sudo lsof -i :11434` to identify the process ID (PID) currently using this port. If the process is `ollama`, the installation script we used above has likely started ollama service.
 
