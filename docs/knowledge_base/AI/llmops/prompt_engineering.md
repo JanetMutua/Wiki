@@ -20,7 +20,35 @@ Below are a few tips on crafting concise prompts to improve AI model accuracy.
 
 
 
+## Prompting Techniques
 
+### Zero-shot Prompting
+
+
+### Few-shot In-context Learning
+
+- You give the model high-quality demonstrations to guide it.
+
+
+### ReAct
+
+- LLMs make use of external knowldege and tools to improve output and reduce hallucination.
+
+### Chain-of-thought (CoT)
+
+- If you want the model to take time to reason.
+
+### Prompt Chaining
+
+- Chain several prompts
+
+
+### Tree of thoughts
+
+
+### Retrieval Augmented Generation (RAG)
+
+- Leverage external knowledge to omptimize the context of prompts
 
 
 ## References
