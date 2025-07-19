@@ -1,7 +1,7 @@
 
 # Hi there 👋 Welcome to my page
 
-🌱 I'm a technical writer and content strategist who specializes in creating content to elevate brands in the B2B and SaaS space.<br>
+🌱 I'm a technical writer and content strategist specializing in creating content to elevate brands in the B2B and SaaS space.<br>
 💫 I'm also a growing developer, exploring technologies like AI, Python, and Linux. <br>
 🔭 I'm currently learning on AI Agents and Agentic AI <br> 
 ✍️ And I frequently write on tech concepts on:
