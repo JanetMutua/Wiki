@@ -75,6 +75,7 @@ nav:
               - Prompt Engineering: knowledge_base/AI/llmops/prompt_engineering.md
       - Python:
           - Fundamentals: knowledge_base/python/fundamentals.md
+          - Regular Expressions: knowledge_base/python/regex.md
 
 extra:
   social:
